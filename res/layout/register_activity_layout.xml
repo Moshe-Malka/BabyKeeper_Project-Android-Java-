@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="14dp"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/back_login">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_new_3"/>
+
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+    <EditText
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/registerEmailEditText"
+        android:hint="Email"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:focusable="true"
+        android:inputType="textEmailAddress"
+        android:imeOptions="actionDone"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:weightSum="1"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true">
+    <EditText
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/registerPasswordEditText"
+        android:hint="Password"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:focusable="true"
+        android:inputType="text"
+        android:imeOptions="actionDone"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignLeft="@+id/linearLayout"
+        android:layout_alignStart="@+id/linearLayout"
+        android:layout_alignRight="@+id/linearLayout2"
+        android:layout_alignEnd="@+id/linearLayout2">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registerProductKeyEditText"
+        android:layout_gravity="bottom"
+        android:hint="Product Key"
+        android:layout_marginTop="56dp"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:focusable="true"
+        android:inputType="text"
+        android:imeOptions="actionDone" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/registerButton"
+        android:layout_marginBottom="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

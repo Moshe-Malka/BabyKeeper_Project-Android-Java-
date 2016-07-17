@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BabyKeeper Application</string>
+    <string name="temperature">Temperature</string>
+    <string name="humidity">Humidity</string>
+    <string name="default_temperature">999</string>
+    <string name="default_humidity">888</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="logo_discription">this is an ImageView containing the logo of the app</string>
+    <string name="i_forgot_my_password">i Forgot My Password</string>
+    <string name="new_user_click_here">New User? Click Here</string>
+    <string name="user_password">Password</string>
+    <string name="user_email">Email</string>
+    <string name="spinner_24_hour">24 Hours</string>
+    <string name="spinner_week">Week</string>
+    <string name="spinner_month">Month</string>
+
+    <string-array name="spinner_opts">
+        <item>24 Hours</item>
+        <item>Week</item>
+        <item>Month</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#908cff</color>
+    <color name="colorPrimary">#0700ef</color>
+    <color name="colorPrimaryDark">#060368</color>
+    <color name="mainFABColor">#78c3ef</color>
+    <color name="rippleColor">#00ffe1</color>
+    <color name="baseFABColor">#005c93</color>
+</resources>
